@@ -1,18 +1,17 @@
 .header_outer_container{
-    position:sticky;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(148, 132, 132);
-    background-color:  rgb(20, 20, 20);
-    /* background-color: transparent; */
-    height: 10vh;
+   top: 0;
+    width: 100%;
     color: white;
-    transition:all 0.5s;
+     position:fixed;
+      height: 50px;
+        z-index: 1;
+        /* Animation */
     transition-timing-function: ease-in;
-    z-index: 1;
-    /* background-color: red; */
+    transition: all 0.5s;
+
+}
+.header_outer_container_black{
+    background-color: #111;
 }
 .nav__black{
     background-color:  rgb(20, 20, 20);
